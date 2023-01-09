@@ -34,7 +34,7 @@
                     <i class="fa fa-key"></i>
                 <br>
                 
-          <button id="button" type="submit" action="https://tlokenahuaque.github.io/evaluacionesducs.github.io/evaluacionesducs.github.io/Index.html">
+          <button id="button" type="submit" action="https://github.com/TlokeNahuaque/evaluacionesducs.github.io/blob/f9b8380970feac8900974838f77c719990ac8f23/Index">
             
             <span class="state"> Iniciar</span>
           </button>
@@ -44,7 +44,7 @@
         </p>
     </div>
 
-    <script src="https://tlokenahuaque.github.io/evaluacionesducs.github.io/evaluacionesducs.github.io/JS/login.js"></script>
+    <script src="https://github.com/TlokeNahuaque/evaluacionesducs.github.io/blob/f9b8380970feac8900974838f77c719990ac8f23/JS/login.js"></script>
 
 </body>
 
