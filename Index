@@ -4,7 +4,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
 	<title>Evaluaciones UCS</title>
-    <link href="C:\Users\JUD_CS_01\Desktop\Pagina CALIDAD\CSS\stylelogin.css" rel="stylesheet">
+    <link href="/CSS/stylelogin.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4a84d99523.js" crossorigin="anonymous"></script>
 
     
@@ -26,7 +26,7 @@
 	</header>
   
     <div class="wrapper">
-        <form class="login" action="C:\Users\JUD_CS_01\Desktop\Pagina CALIDAD\Index.html">
+        <form class="login" action="/principal.html">
           <p class="title">Inicia sesión</p>
                 <input  autofocus type="text" name="usuario" value="" placeholder="Usuario">
                   <i class="fa fa-user"></i>
@@ -34,7 +34,7 @@
                     <i class="fa fa-key"></i>
                 <br>
                 
-          <button id="button" type="submit" action="C:\Users\JUD_CS_01\Desktop\Pagina CALIDAD\Index.html">
+          <button id="button" type="submit" action="/Index.html">
             
             <span class="state"> Iniciar</span>
           </button>
@@ -44,7 +44,7 @@
         </p>
     </div>
 
-    <script src="C:\Users\JUD_CS_01\Desktop\Pagina CALIDAD\JS\login.js"></script>
+    <script src="/JS/login.js"></script>
 
 </body>
 
