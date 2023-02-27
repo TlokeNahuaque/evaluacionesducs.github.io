@@ -755,8 +755,8 @@ button:focus {
   overflow: hidden;
   min-width: 700px;
   max-width: 1200px;
-  width: 100%;
-  height: 60%;
+  width: 90%;
+  height: 55%;
 }
 
 .options .option {
