@@ -4,7 +4,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1"><html lang="es">
 	<title>Evaluación Grupal</title>
-    <link href="..\CSS\stylegrupal.css" rel="stylesheet">
+    <link href="..\CSS\styleindividualindex.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4a84d99523.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
@@ -95,114 +95,50 @@
         <div class="container-header1">
           <div class="container-search">
             <form action=#>
-              <p class="label-search">Módulo
+              <p class="label-search2">Módulo
                 <label for="lang"></label>
-                  <select name="Módulo" id="Modulo">
-                    <option value="Default">--Elegir Módulo--</option>
-                    <option value="Atencion_Telefonica">Atención Telefónica</option>
-                    <option value="Asistencia_Integral">Asistencia Integral</option>
-                    <option value="Calidad_servicio">Calidad del Servicio</option>
-                    <option value="Correo_SUAC">Correo electrónico y SUAC</option>
-                    <option value="Gestion_Visitas">Gestión de Visitas</option>
-                    <option value="Mi_Policia">Mi Policía</option>
-                    <option value="Whatsapp">WhatsApp</option>
+                  <select name="Módulo" id="Modulo" onchange="location=this.value">
+                    <option style="color:gainsboro;" value="Default">--Elegir Módulo--</option>
+                    <option value="..\Docs\Grupal\Asistencia Integral\GrupalAsistencia.html">Asistencia Integral</option>
+                    <option value="..\Docs\Grupal\Atencion Telefonica\GrupalTelefono.html">Atención Telefónica</option>
+                    <option value="..\Docs\Grupal\Calidad del Servicio\GrupalCalidad.html">Calidad del Servicio</option>
+                    <option value="..\Docs\Grupal\Correo y SUAC\GrupalCorreo.html">Correo electrónico y SUAC</option>
+                    <option value="..\Docs\Grupal\Gestion de Visitas\GrupalVisitas.html">Gestión de Visitas</option>
+                    <option value="..\Docs\Grupal\Mi Policia\GrupalMiPolicia.html">Mi Policía</option>
+                    <option value="..\Docs\Grupal\WhatsApp\GrupalWhatsApp.html">WhatsApp</option>
                   </select>
             </form>
           </div>
-
           <div class="container-search">
             <form action=#>
               <p class="label-search">Turno
                 <label for="lang"></label>
-                  <select name="Módulo" id="Modulo">
-                    <option value="Default">--Elegir Turno--</option>
-                    <option value="Atencion_Telefonica">Matutino 1</option>
-                    <option value="Asistencia_Integral">Matutino 2</option>
-                    <option value="Calidad_servicio">Velada 1</option>
-                    <option value="Correo_SUAC">Velada 2</option>
-                  </select>
-            </form>
-          </div>
-        </div>  
-
-        <div class="container-header2">
-          <div class="container-search">
-            <form action=#>
-              <p class="label-search2">Inicio
-                <label for="lang"></label>
-                  <select name="Mes" id="Mes">
-                    <option value="Default">--Mes--</option>
-                    <option value="Enero">Enero</option>
-                    <option value="Febrero">Febrero</option>
-                    <option value="Marzo">Marzo</option>
-                    <option value="Abril">Abril</option>
-                    <option value="Mayo">Mayo</option>
-                    <option value="Junio">Junio</option>
-                    <option value="Julio">Julio</option>
-                    <option value="Agosto">Agosto</option>
-                    <option value="Septiembre">Septiembre</option>
-                    <option value="Octubre">Octubre</option>
-                    <option value="Noviembre">Noviembre</option>
-                    <option value="Diciembre">Diciembre</option>
-                  </select>
-                  <select name="Año" id="Año">
-                    <option value="Default">--Año--</option>
-                    <option value="2023">2023</option>
-                    <option value="2022">2022</option>
-                    <option value="2021">2021</option>
-                    <option value="2020">2020</option>
-                    <option value="2019">2019</option>
-                    <option value="2018">2018</option>
-                    <option value="2017">2017</option>
-                    <option value="2016">2016</option>
+                  <select name="Nombre" id="Nombre" onchange="location=this.value">
+                    <option style="color:gainsboro;" value="Default">--Elegir Turno--</option>
+                    
                   </select>
             </form>
           </div>
 
           <div class="container-search">
             <form action=#>
-              <p class="label-search2">Fin
+              <p class="label-search2">Año
                 <label for="lang"></label>
-                  <select name="Mes" id="Mes">
-                    <option value="Default">--Mes--</option>
-                    <option value="Enero">Enero</option>
-                    <option value="Febrero">Febrero</option>
-                    <option value="Marzo">Marzo</option>
-                    <option value="Abril">Abril</option>
-                    <option value="Mayo">Mayo</option>
-                    <option value="Junio">Junio</option>
-                    <option value="Julio">Julio</option>
-                    <option value="Agosto">Agosto</option>
-                    <option value="Septiembre">Septiembre</option>
-                    <option value="Octubre">Octubre</option>
-                    <option value="Noviembre">Noviembre</option>
-                    <option value="Diciembre">Diciembre</option>
-                  </select>
-                  <select name="Año" id="Año">
-                    <option value="Default">--Año--</option>
-                    <option value="2023">2023</option>
-                    <option value="2022">2022</option>
-                    <option value="2021">2021</option>
-                    <option value="2020">2020</option>
-                    <option value="2019">2019</option>
-                    <option value="2018">2018</option>
-                    <option value="2017">2017</option>
-                    <option value="2016">2016</option>
+                  <select name="Año" id="Año" onchange="location=this.value">
+                    <option style="color:gainsboro;" value="Default">--Año--</option>
                   </select>
             </form>
           </div>
 
-          <div class="container-search">
-            <button class="button" style="vertical-align:middle"><span>Consultar </span></button>
-          </div>
-        </div>  
+        </div>
         
-    
+        
+           
         <div id="Level-1">
           <div class="app"><div class="cardList"><button class="cardList__btn btn btn--left"><div class="icon"><svg><use xlink:href="#arrow-left"></use></svg></button><div class="cards__wrapper"><div class="card current--card"><div class="card__image"><img src="#" alt="" /></div></div><div class="card next--card"><div class="card__image"><img src="#" alt="" /></div></div><div class="card previous--card"><div class="card__image"><img src="" alt="" /></div></div></div><button class="cardList__btn btn btn--right"><div class="icon"><svg><use xlink:href="#arrow-right"></use></svg></div></button></div><div class="infoList"><div class="info__wrapper"><div class="info current--info"></div><div class="info next--info"></div><div class="info previous--info"></div></div></div><div class="app__bg"><div class="app__bg__image current--image"><img src="#" alt="" /></div><div class="app__bg__image next--image"><img src="#" alt="" /></div><div class="app__bg__image previous--image"><img src="#" alt="" /></div></div></div><div class="loading__wrapper"><div class="loader--text">Cargando...</div><div class="loader"><span></span></div></div>
         </div>
-
-        
+      
+      </div>
       
       </div>
     </main>
